@@ -10,7 +10,7 @@ using SQLitePCL;
 
 namespace DatingApp.API.Controllers
 {
-    [Authorize]
+    [AllowAnonymous]
     [Route("api/[controller]")]
     public class ValuesController : Controller
     {
